@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Nước hoa mĩ phẩm</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href=@Url.Content("/Content/css/bootstrap.min.css") />
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href=@Url.Content("/Content/css/slick.css") />
+    <link type="text/css" rel="stylesheet" href=@Url.Content("/Content/css/slick-theme.css") />
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href=@Url.Content("/Content/css/nouislider.min.css") />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href=@Url.Content("/Content/css/font-awesome.min.css")>
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href=@Url.Content("/Content/css/style.css") />
+
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        @Html.Partial("_Header")
+    </header>
+    <!-- /HEADER -->
+    <!-- NAVIGATION -->
+    <nav id="navigation">
+        @Html.Partial("_Navigation")
+    </nav>
+    <!-- /NAVIGATION -->
+    @RenderBody();
+    <!-- NEWSLETTER -->
+    <div id="newsletter" class="section">
+        @Html.Partial("_NewsLetter")
+    </div>
+    <!-- /NEWSLETTER -->
+    <!-- FOOTER -->
+    <footer id="footer">
+        @Html.Partial("_Footer")
+    </footer>
+    <!-- /FOOTER -->
+    <!-- jQuery Plugins -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/js/slick.min.js"></script>
+    <script src="~/Scripts/js/nouislider.min.js"></script>
+    <script src="~/Scripts/js/jquery.zoom.min.js"></script>
+    <script src="~/Scripts/js/main.js"></script>
+
+</body>
+</html>

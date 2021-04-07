@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTL_Mvc", "BTL_Mvc.csproj", "{2EA7BF6B-7060-4D22-BAAF-0FDDD5FF8004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA7BF6B-7060-4D22-BAAF-0FDDD5FF8004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA7BF6B-7060-4D22-BAAF-0FDDD5FF8004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA7BF6B-7060-4D22-BAAF-0FDDD5FF8004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA7BF6B-7060-4D22-BAAF-0FDDD5FF8004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7016CA5-E41D-4B8D-B706-949AF29BC460}
+	EndGlobalSection
+EndGlobal
