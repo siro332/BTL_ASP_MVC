@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bce8e43655a54602a70ca488f0964155" Name="Diagram1">
+        <EntityTypeShape EntityType="CosmeticDBModel.ChatLieu" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.CongDung" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.HangHoa" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.HangSanXuat" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.HoaDonBan" Width="1.5" PointX="3" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.HoaDonNhap" Width="1.5" PointX="6" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.KhachHang" Width="1.5" PointX="0.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.KhoiLuong" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.Loai" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.Mua" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.NhaCungCap" Width="1.5" PointX="3.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.NuocSanXuat" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.role" Width="1.5" PointX="8.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.sysdiagram" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.user" Width="1.5" PointX="11" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.ChiTietHDBan" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CosmeticDBModel.ChiTietHDNhap" Width="1.5" PointX="8.25" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_ChatLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_CongDung" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_ChiTietHDBan_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_ChiTietHDNhap_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_HangSanXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_KhoiLuong" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_Loai" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_Mua" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HangHoa_NuocSanXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_ChiTietHDBan_HoaDonBan" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HoaDonBan_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_ChiTietHDNhap_HoaDonNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_HoaDonNhap_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="CosmeticDBModel.FK_user_role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
