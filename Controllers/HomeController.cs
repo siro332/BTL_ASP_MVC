@@ -1,16 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using BTL_Mvc.Respository.ImpRespository;
 
 namespace BTL_Mvc.Controllers
 {
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult TopSaleProducts()
+        {
+            ProductRespository productRespository = new ProductRespository();
+
+            return PartialView("~/Views/Home/TopSaleProducts.cshtml", productRespository.findAll());
+        }
+        public ActionResult NewProductsByCat(String id = null)
+        {
+            ProductRespository productRespository = new ProductRespository();
+            return PartialView("~/Views/Home/NewProductsByCat.cshtml", productRespository.findNewProductsByCat("MLH01"));
         }
         public ActionResult Product()
         {

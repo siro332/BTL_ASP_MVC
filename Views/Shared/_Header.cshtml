@@ -1,4 +1,5 @@
-﻿    <!-- TOP HEADER -->
+﻿@model IEnumerable<BTL_Mvc.Models.Entities.Loai>
+    <!-- TOP HEADER -->
     <div id="top-header">
         <div class="container">
             <ul class="header-links pull-left">
@@ -22,7 +23,7 @@
                 <!-- LOGO -->
                 <div class="col-md-3">
                     <div class="header-logo">
-                        <a href="#" class="logo">
+                        <a href="@Url.Action("Index","Home")" class="logo">
                             <img src=@Url.Content("/Content/img/logo.png") alt="">
                         </a>
                     </div>
@@ -33,9 +34,14 @@
                     <div class="header-search">
                         <form>
                             <select class="input-select">
+
                                 <option value="0">Danh mục</option>
-                                <option value="1">Category 01</option>
-                                <option value="1">Category 02</option>
+
+                                @foreach (var item in Model)
+                                {
+                                    <option value=@item.MaLoai>@item.TenLoai</option>
+                                }
+
                             </select>
                             <input class="input" placeholder="Tìm kiếm">
                             <button class="search-btn">Tìm kiếm</button>

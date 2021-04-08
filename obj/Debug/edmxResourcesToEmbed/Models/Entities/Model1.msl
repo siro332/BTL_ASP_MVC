@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CosmeticDBModelStoreContainer" CdmEntityContainer="CosmeticDBEntities1">
+    <EntitySetMapping Name="ChatLieux">
+      <EntityTypeMapping TypeName="CosmeticDBModel.ChatLieu">
+        <MappingFragment StoreEntitySet="ChatLieu">
+          <ScalarProperty Name="MaCL" ColumnName="MaCL" />
+          <ScalarProperty Name="TenCL" ColumnName="TenCL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CongDungs">
+      <EntityTypeMapping TypeName="CosmeticDBModel.CongDung">
+        <MappingFragment StoreEntitySet="CongDung">
+          <ScalarProperty Name="MaCongDung" ColumnName="MaCongDung" />
+          <ScalarProperty Name="TenCongDung" ColumnName="TenCongDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HangHoas">
+      <EntityTypeMapping TypeName="CosmeticDBModel.HangHoa">
+        <MappingFragment StoreEntitySet="HangHoa">
+          <ScalarProperty Name="MaHang" ColumnName="MaHang" />
+          <ScalarProperty Name="TenHang" ColumnName="TenHang" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="MaKhoiLuong" ColumnName="MaKhoiLuong" />
+          <ScalarProperty Name="MaHangSX" ColumnName="MaHangSX" />
+          <ScalarProperty Name="MaCL" ColumnName="MaCL" />
+          <ScalarProperty Name="MaCongDung" ColumnName="MaCongDung" />
+          <ScalarProperty Name="MaMua" ColumnName="MaMua" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaNuocSX" ColumnName="MaNuocSX" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGiaNhap" ColumnName="DonGiaNhap" />
+          <ScalarProperty Name="DonGiaBan" ColumnName="DonGiaBan" />
+          <ScalarProperty Name="TGBaoHanh" ColumnName="TGBaoHanh" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HangSanXuats">
+      <EntityTypeMapping TypeName="CosmeticDBModel.HangSanXuat">
+        <MappingFragment StoreEntitySet="HangSanXuat">
+          <ScalarProperty Name="MaHangSX" ColumnName="MaHangSX" />
+          <ScalarProperty Name="TenHangSX" ColumnName="TenHangSX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDonBans">
+      <EntityTypeMapping TypeName="CosmeticDBModel.HoaDonBan">
+        <MappingFragment StoreEntitySet="HoaDonBan">
+          <ScalarProperty Name="SoHDBan" ColumnName="SoHDBan" />
+          <ScalarProperty Name="NgayBan" ColumnName="NgayBan" />
+          <ScalarProperty Name="MaKhach" ColumnName="MaKhach" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDonNhaps">
+      <EntityTypeMapping TypeName="CosmeticDBModel.HoaDonNhap">
+        <MappingFragment StoreEntitySet="HoaDonNhap">
+          <ScalarProperty Name="SoHDNhap" ColumnName="SoHDNhap" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="CosmeticDBModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="MaKhach" ColumnName="MaKhach" />
+          <ScalarProperty Name="TenKhach" ColumnName="TenKhach" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhoiLuongs">
+      <EntityTypeMapping TypeName="CosmeticDBModel.KhoiLuong">
+        <MappingFragment StoreEntitySet="KhoiLuong">
+          <ScalarProperty Name="MaKhoiLuong" ColumnName="MaKhoiLuong" />
+          <ScalarProperty Name="TenKhoiLuong" ColumnName="TenKhoiLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loais">
+      <EntityTypeMapping TypeName="CosmeticDBModel.Loai">
+        <MappingFragment StoreEntitySet="Loai">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Muas">
+      <EntityTypeMapping TypeName="CosmeticDBModel.Mua">
+        <MappingFragment StoreEntitySet="Mua">
+          <ScalarProperty Name="MaMua" ColumnName="MaMua" />
+          <ScalarProperty Name="TenMua" ColumnName="TenMua" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhaCungCaps">
+      <EntityTypeMapping TypeName="CosmeticDBModel.NhaCungCap">
+        <MappingFragment StoreEntitySet="NhaCungCap">
+          <ScalarProperty Name="MaNhaCC" ColumnName="MaNhaCC" />
+          <ScalarProperty Name="TenNhaCC" ColumnName="TenNhaCC" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NuocSanXuats">
+      <EntityTypeMapping TypeName="CosmeticDBModel.NuocSanXuat">
+        <MappingFragment StoreEntitySet="NuocSanXuat">
+          <ScalarProperty Name="MaNuocSX" ColumnName="MaNuocSX" />
+          <ScalarProperty Name="TenNuocSX" ColumnName="TenNuocSX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="roles">
+      <EntityTypeMapping TypeName="CosmeticDBModel.role">
+        <MappingFragment StoreEntitySet="role">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="code" ColumnName="code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="CosmeticDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="CosmeticDBModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="roleid" ColumnName="roleid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietHDBans">
+      <EntityTypeMapping TypeName="CosmeticDBModel.ChiTietHDBan">
+        <MappingFragment StoreEntitySet="ChiTietHDBan">
+          <ScalarProperty Name="SoHDBan" ColumnName="SoHDBan" />
+          <ScalarProperty Name="MaHang" ColumnName="MaHang" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietHDNhaps">
+      <EntityTypeMapping TypeName="CosmeticDBModel.ChiTietHDNhap">
+        <MappingFragment StoreEntitySet="ChiTietHDNhap">
+          <ScalarProperty Name="SoHDNhap" ColumnName="SoHDNhap" />
+          <ScalarProperty Name="MaHang" ColumnName="MaHang" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
